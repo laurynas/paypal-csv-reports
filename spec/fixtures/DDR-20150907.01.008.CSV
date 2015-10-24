@@ -1,0 +1,17 @@
+"RH","2015/09/08 06:56:10 +0200",R,XAAAA4K4R24FQ,008,,,,,,,,,,,,,,,,,,,,,
+"FH",01
+SH,"2015/09/07 00:00:00 +0200","2015/09/07 23:59:59 +0200","XAAAA4K4R24FQ
+",,,,,,,,,,,,,,,,,,,,,,
+"CH","Case type","Case ID","Original transaction ID","Transaction date","Transaction invoice ID","Card Type","Case reason","Claimant name","Claimant email address","Case filing date","Case status","Response due date","Disputed amount","Disputed currency","Disputed transaction ID","Money movement","Settlement type","Seller protection","Seller protection payout amount","Seller protection currency","Payment Tracking ID","Buyer comments","Store ID","Chargeback Reason Code","Outcome"
+SB,Claim,PP-004-117-699-911,00389221H1783294G,"2015/08/13 07:50:09 +0200",,,"Not as described",testami,aaaa@hotmail.com,"2015/08/17 00:38:57 +0200","Being Reviewed By PayPal",,"221",GBP,,"No Impact",,Ineligible,,,tracking-id-123,"When the rain comes tumbling down",,,None
+SB,Dispute,PP-004-327-396-223,4JS20212KJ0029310,"2015/08/11 21:44:11 +0200",,,"Not as described",ZeiBa,bbbb@gmail.com,"2015/08/19 23:42:13 +0200",Open,,"322",GBP,1JE23435A5134245N,"Temp Hold Placed",Reversal,Ineligible,,,tracking-id-121,"In the country or the town",,,
+SB,Dispute,PP-004-142-417-918,0YL28962211112212,"2015/08/19 15:14:17 +0200",,,Non-receipt,gogola,cccc@gmail.com,"2015/08/27 11:11:59 +0200",Open,,"533",EUR,1RE63259K48740416,"Temp Hold Placed",Reversal,Ineligible,,,tracking-id-444,"All good little girls and boys ",,,
+SB,Dispute,PP-004-237-637-227,6K282472CJ696274C,"2015/08/06 17:43:36 +0200",,,Non-receipt,MerinMa,dddd@gmail.com,"2015/08/29 21:30:55 +0200",Open,,"4212",GBP,88G74315RN493714B,"Temp Hold Placed",Reversal,Ineligible,,,tracking-id-421,"Stay at home and mind their toys",,,
+SB,Claim,PP-004-140-284-232,5XG54142311478349,"2015/08/26 18:47:37 +0200",,,"Not as described",NédEama,eeee@gmail.com,"2015/08/31 17:29:02 +0200","Being Reviewed By PayPal",,"433",EUR,,"Temp Hold Placed",,Ineligible,,,tracking-id-212,"Robert thought, - ""No, when it pours, It is better out of doors."" ",,,None
+SB,Dispute,PP-004-112-656-217,299737213T2224914,"2015/08/29 01:09:02 +0200",,,Non-receipt,JaeyKa,fffff@gmail.uk,"2015/09/01 17:57:18 +0200",Open,,"234",GBP,73U88619WR432143T,"Temp Hold Placed",Reversal,Ineligible,,,"tracking-id-322","Rain it did, and in a minute",,,
+SB,Dispute,PP-004-129-679-232,8P1494333Y395013V,"2015/08/12 16:55:05 +0200",,,Non-receipt,ajaaja,qwww@gmail.com,"2015/09/04 15:01:04 +0200",Open,,"432",GBP,13398111SU1809921,"Temp Hold Placed",Reversal,Ineligible,,,"tracking-id-322","Bob was in it",,,
+"SF",7
+"SC",7
+"RF",7
+"RC",7
+"FF",7
