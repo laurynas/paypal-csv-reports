@@ -8,8 +8,7 @@ module Paypal
           new(File.open(file, 'r:bom|utf-8'))
         end
 
-        attr_reader :header
-        attr_reader :entries
+        attr_reader :generated_at, :reporting_window, :account_id, :version, :header, :entries
 
         def initialize(csv)
           @entries = []
@@ -27,11 +26,17 @@ module Paypal
           row_type = row.shift.to_s.strip
 
           case row_type
+          when 'RH'
+            parse_report_header(row)
           when 'CH'
             @header = parse_header(row)
           when 'SB'
             @entries << Hash[@header.zip(row)]
           end
+        end
+
+        def parse_report_header(row)
+          @generated_at, @reporting_window, @account_id, @version = row
         end
 
         def parse_header(row)
